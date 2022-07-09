@@ -6,3 +6,23 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+body {
+    font-family:"Poppins", sans-serif;
+}
+
+img {
+    width:100%;
+}
+
+a {
+    text-decoration: none;
+}
+
+.big-wrapper {
+    padding: 1.7rem;
+    width: 100%;
+    min-height:100vh;
+    overflow:hidden;
+    background-color:#f1f8fc;
+}
