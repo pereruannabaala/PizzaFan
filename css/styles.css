@@ -73,3 +73,8 @@ header .container {
     font-weight: 700;
 }
 
+.links ul {
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
