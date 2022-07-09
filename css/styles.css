@@ -89,6 +89,12 @@ header .container {
     color: var(--lightTwo);
     margin-left: 4.5rem;
     display: inline-block;
+    transition: 0.3s;
+}
+
+.links a:hover {
+    color: var(--hoverColor);
+    transform: scale(1.05);
 }
 
 .btn {
@@ -103,4 +109,10 @@ header .container {
 
 .btn:hover {
     background-color: var(--hoverColor);
+    transform: scale(1) !important;
+}
+
+.showcase-area .container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 }
