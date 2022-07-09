@@ -95,4 +95,6 @@ header .container {
     transition: 0.3s;
 }
 
-
+.btn:hover {
+    background-color: var(--hoverColor);
+}
