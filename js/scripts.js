@@ -27,7 +27,10 @@ function toggleAnimation() {
     clone.classList.add("copy");
     main.appendChild(clone);
 
+    document.body.classList.add("stop-scrolling");
+
     clone.addEventListener("animationend", () => {
+        document.body.classList.remove("stop-scrolling");
         big_wrapper.remove();
         clone.classList.remove("copy");
         // Reset Variables
