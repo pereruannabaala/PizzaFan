@@ -36,6 +36,9 @@ a {
     min-height:100vh;
     overflow:hidden;
     background-color: var(--backgroundColor);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .container{
@@ -114,5 +117,57 @@ header .container {
 
 .showcase-area .container {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    justify-content: center; 
+
 }
+
+.big-title {
+    font-size: 0.7rem;
+
+    color: var(--darkOne);
+    text-transform: capitalize;
+    line-height: 1.4;
+}
+
+.text{
+    color: var(--lightOne);
+    font-size: 0.68rem;
+    margin: 0.9rem 0 1rem;
+    max-width: 600px;
+    line-height: 2.3;
+}
+
+.showacse-area.btn {
+    box-shadow: 0 0 40px 2px rgba(0, 0, 0, 0.05);
+}
+
+.toggle-btn {
+    display: inline-block;
+    border: none;
+    background: var(--darkTwo);
+    color: var(--backgroundColor);
+    outline: none;
+    cursor: pointer;
+    height: 39px;
+    width: 39px;
+    border-radius: 50%;
+    font-size: 1.1rem;
+    transition: 0.3s;
+}
+
+.toggle-btn i {
+    line-height: 39px;
+}
+
+.toggle-btn i:last-child {
+    display: none;
+}
+
+
+
+
+
+
+
