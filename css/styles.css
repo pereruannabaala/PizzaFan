@@ -370,6 +370,24 @@ header .container {
     }
 }
 
+@media screen and (max-width: 470px) {
+    .container {
+        padding: 0 1.5rem;
+    }
+
+    .big-title {
+        font-size: 0.56rem;
+    }
+    .text {
+        font-size: 0.46;
+    }
+    .showcase-area .btn {
+        font-size: 0.8rem;
+    }
+}
+    
+
+
     
 
 
