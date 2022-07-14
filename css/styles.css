@@ -64,7 +64,6 @@ a {
     margin: 0 auto;
     padding: 0 3rem;
     z-index: 10;
-
 }
 
 header {
@@ -385,10 +384,32 @@ header .container {
         font-size: 0.8rem;
     }
 }
-    
 
+.testimonials {
+    padding: 1.7rem;
+    width: 100%;
+    min-height:100vh;
+    overflow:hidden;
+    background-color: var(--backgroundColor);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
 
-    
+.testimonials-title {
+    font-size: 0.7rem;
+    color: var(--darkOne);
+    text-transform: capitalize;
+    line-height: 1.4;
+    text-align: center; 
+}
+
+.testimonials-texts {
+    color: var(--lightOne);
+    font-size: 0.68rem;
+    text-align: center;
+    padding: 10px;
+}
 
 
  
