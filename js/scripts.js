@@ -52,9 +52,8 @@ function events() {
 
 events();
 
-import Swiper from 'swiper/swiper-bundle.esm.js';
-import 'swiper/swiper-bundle.css';
 var swiper = new Swiper('.swiper', {
+  loop: true,
   effect: 'coverflow',
   grabCursor: true,
   centeredSlides: true,
@@ -69,4 +68,7 @@ var swiper = new Swiper('.swiper', {
   pagination: {
     el: '.swiper-pagination',
   },
+});
+$('.navbar-collapse').on('shown.bs.collapse', function(){
+    swiper.update();
 });
