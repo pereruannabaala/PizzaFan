@@ -421,7 +421,8 @@ header .container {
     background-position: center;
     background-size: cover;
     width: 320px;
-    box-shadow: 0 15px 50px rgba(0,0,0,0.2);
+    min-height: 420px;
+    box-shadow: 0 15px 50px rgba(0,0,0,0.2); 
     filter: blur(4px);
     background: #d1ebff;
     border-radius:10px;
@@ -442,6 +443,7 @@ header .container {
 
  .testimonialsBox .quote {
       position: absolute;
+      max-width: 4rem;
       top: 20px;
       right: 30px;
       opacity: 0.2;
