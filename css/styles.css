@@ -397,7 +397,7 @@ header .container {
 }
 
 .testimonials-title {
-    font-size: 0.7rem;
+    font-size: 1.55rem;
     color: var(--darkOne);
     text-transform: capitalize;
     line-height: 1.4;
@@ -406,7 +406,7 @@ header .container {
 
 .testimonials-texts {
     color: var(--lightOne);
-    font-size: 0.68rem;
+    font-size: 1rem;
     text-align: center;
     padding: 10px;
 }
@@ -456,7 +456,7 @@ header .container {
 }
 
 .testimonialsBox .details .imgBx {
-    position:relative;
+    position: relative;
     width: 60px;
     height:60px;
     border-radius: 50%;
@@ -489,6 +489,33 @@ header .container {
 .swiper-container-3d .swiper-slide-shadow-left,
 .swiper-container-3d .swiper-slide-shadow-right {
     background-image: none;
+}
+
+@media screen and (max-width: 870px) {
+    .testimonials-title {
+        font-size: 0.8rem;
+    }
+    .testimonials-texts {
+        font-size: 0.7rem;
+    }
+    .swiper-slide{
+        width: 300px;
+        min-height: 380px;
+    }
+}
+
+@media screen and (max-width: 470px) {
+    .testimonials-title {
+        font-size: 0.5rem;
+    }
+    .testimonials-texts {
+        font-size: 0.4rem;
+    }
+    .swiper-slide{
+        width: 60px;
+        min-height: 110px;
+        border-radius: 10px;
+    }
 }
 
 
